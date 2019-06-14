@@ -136,3 +136,4 @@ Bucket规则如下：
 
 # Production架构图
 ![Production架构图](./images/production_serverless.png "Production架构图")
+真实的场景中，我们会通过大数据平台，将用户搜索频率高的词语计算出来，存入到DynamoDB中以供应用程序查询和展示。
